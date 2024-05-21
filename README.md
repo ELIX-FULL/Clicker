@@ -46,7 +46,7 @@
 ~/HamsterKombatBot >>> python3 -m venv venv
 ~/HamsterKombatBot >>> source venv/bin/activate
 ~/HamsterKombatBot >>> pip3 install -r requirements.txt
-~/HamsterKombatBot >>> cp .env-example .env
+~/HamsterKombatBot >>> cp .env .env
 ~/HamsterKombatBot >>> nano .env  # Здесь вы обязательно должны указать ваши API_ID и API_HASH , остальное берется по умолчанию
 ~/HamsterKombatBot >>> python3 main.py
 
@@ -54,7 +54,7 @@
 ~/HamsterKombatBot >>> python -m venv venv
 ~/HamsterKombatBot >>> venv\Scripts\activate
 ~/HamsterKombatBot >>> pip install -r requirements.txt
-~/HamsterKombatBot >>> copy .env-example .env
+~/HamsterKombatBot >>> copy .env .env
 ~/HamsterKombatBot >>> # Указываете ваши API_ID и API_HASH, остальное берется по умолчанию
 ~/HamsterKombatBot >>> python main.py
 ```
